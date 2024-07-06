@@ -48,6 +48,7 @@ export default ({ onPress, text, size, theme }) => {
   // Styles for the button component text styles
   const textStyles = [styles.text];
 
+  // If the size is double, add the double button style
   if (size === "double") {
     buttonStyles.push(styles.buttonDouble);
   }
