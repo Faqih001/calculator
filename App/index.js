@@ -31,6 +31,7 @@ export default class App extends React.Component {
     this.setState(state => calculator(type, value, state));
   };
 
+  // Render the app component
   render() {
     return (
       <View style={styles.container}>
