@@ -67,6 +67,7 @@ export const handleEqual = state => {
     };
   }
 
+  // if the operator is null, return the current state
   return state;
 };
 
