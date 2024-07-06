@@ -26,6 +26,7 @@ export default class App extends React.Component {
   // Initial state of the app component
   state = initialState;
 
+  // Function to handle the tap event
   handleTap = (type, value) => {
     this.setState(state => calculator(type, value, state));
   };
