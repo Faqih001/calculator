@@ -7,6 +7,7 @@ const screen = Dimensions.get("window");
 // Button component 
 const buttonWidth = screen.width / 4;
 
+// Styles for the button component 
 const styles = StyleSheet.create({
   text: {
     color: "#fff",
