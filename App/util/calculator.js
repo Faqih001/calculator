@@ -28,6 +28,8 @@ export const handleEqual = state => {
 
   // if the previous value is not null, perform the operation based on the operator
   const previous = parseFloat(previousValue);
+
+  // reset the state object 
   const resetState = {
     operator: null,
     previousValue: null
