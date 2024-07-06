@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   }
 });
 
+// Button component 
 export default ({ onPress, text, size, theme }) => {
   const buttonStyles = [styles.button];
   const textStyles = [styles.text];
