@@ -53,6 +53,7 @@ export default ({ onPress, text, size, theme }) => {
     buttonStyles.push(styles.buttonDouble);
   }
 
+  // If the theme is secondary, add the secondary button style
   if (theme === "secondary") {
     buttonStyles.push(styles.buttonSecondary);
     textStyles.push(styles.textSecondary);
