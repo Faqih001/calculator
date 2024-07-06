@@ -11,6 +11,7 @@ export const handleNumber = (value, state) => {
     return { currentValue: `${value}` };
   }
 
+  // if the current value is not 0, append the value to the current value
   return {
     currentValue: `${state.currentValue}${value}`
   };
