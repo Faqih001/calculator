@@ -3,6 +3,8 @@ import { TouchableOpacity, StyleSheet, Text, Dimensions } from "react-native";
 
 // Styles for the button component
 const screen = Dimensions.get("window");
+
+// Button component 
 const buttonWidth = screen.width / 4;
 
 const styles = StyleSheet.create({
