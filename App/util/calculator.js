@@ -19,6 +19,8 @@ export const handleNumber = (value, state) => {
 
 // handle the equal button press event 
 export const handleEqual = state => {
+
+  // destructure the state object 
   const { currentValue, previousValue, operator } = state;
 
   const current = parseFloat(currentValue);
