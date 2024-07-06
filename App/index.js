@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
 
 // App component 
 export default class App extends React.Component {
+  // Initial state of the app component
   state = initialState;
 
   handleTap = (type, value) => {
