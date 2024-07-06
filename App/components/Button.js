@@ -44,6 +44,8 @@ export default ({ onPress, text, size, theme }) => {
 
   // Styles for the button component button styles
   const buttonStyles = [styles.button];
+  
+  // Styles for the button component text styles
   const textStyles = [styles.text];
 
   if (size === "double") {
