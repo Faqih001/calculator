@@ -64,6 +64,7 @@ export default ({ onPress, text, size, theme }) => {
     buttonStyles.push(styles.buttonAccent);
   }
 
+  // Return the button component
   return (
     <TouchableOpacity onPress={onPress} style={buttonStyles}>
       <Text style={textStyles}>{text}</Text>
