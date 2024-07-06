@@ -23,6 +23,7 @@ export const handleEqual = state => {
   // destructure the state object 
   const { currentValue, previousValue, operator } = state;
 
+  // convert the current and previous values to float
   const current = parseFloat(currentValue);
   const previous = parseFloat(previousValue);
   const resetState = {
