@@ -71,6 +71,7 @@ export const handleEqual = state => {
   return state;
 };
 
+// calculator function to handle the button press event 
 const calculator = (type, value, state) => {
   switch (type) {
     case "number":
