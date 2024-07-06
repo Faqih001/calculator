@@ -5,6 +5,7 @@ export const initialState = {
   previousValue: null
 };
 
+// handle the number button press event 
 export const handleNumber = (value, state) => {
   if (state.currentValue === "0") {
     return { currentValue: `${value}` };
