@@ -17,6 +17,7 @@ export const handleNumber = (value, state) => {
   };
 };
 
+// handle the equal button press event 
 export const handleEqual = state => {
   const { currentValue, previousValue, operator } = state;
 
