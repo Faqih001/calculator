@@ -1,6 +1,7 @@
 import React from "react";
 import { TouchableOpacity, StyleSheet, Text, Dimensions } from "react-native";
 
+// Styles for the button component
 const screen = Dimensions.get("window");
 const buttonWidth = screen.width / 4;
 
