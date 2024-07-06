@@ -43,6 +43,7 @@ export const handleEqual = state => {
     };
   }
 
+  // perform the operation based on the operator
   if (operator === "*") {
     return {
       currentValue: previous * current,
