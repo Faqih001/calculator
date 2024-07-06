@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
   }
 });
 
+// App component 
 export default class App extends React.Component {
   state = initialState;
 
