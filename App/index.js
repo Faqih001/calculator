@@ -5,6 +5,7 @@ import Row from "./components/Row";
 import Button from "./components/Button";
 import calculator, { initialState } from "./util/calculator";
 
+// Styles for the app component 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
