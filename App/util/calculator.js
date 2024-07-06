@@ -25,6 +25,8 @@ export const handleEqual = state => {
 
   // convert the current and previous values to float
   const current = parseFloat(currentValue);
+
+  // if the previous value is not null, perform the operation based on the operator
   const previous = parseFloat(previousValue);
   const resetState = {
     operator: null,
