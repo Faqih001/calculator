@@ -1,3 +1,4 @@
+// Purpose: This file contains the logic for the calculator. It takes in the type of button pressed, the value of the button, and the current state of the calculator. It then returns the new state of the calculator based on the button pressed.
 export const initialState = {
   currentValue: "0",
   operator: null,
